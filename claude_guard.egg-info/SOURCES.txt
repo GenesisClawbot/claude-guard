@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+claude_guard/__init__.py
+claude_guard.egg-info/PKG-INFO
+claude_guard.egg-info/SOURCES.txt
+claude_guard.egg-info/dependency_links.txt
+claude_guard.egg-info/top_level.txt
