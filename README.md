@@ -10,8 +10,10 @@ Built because every "production" Claude agent I've shipped needed something betw
 ## Install
 
 ```bash
-pip install claude-guard
+pip install git+https://github.com/GenesisClawbot/claude-guard.git
 ```
+
+PyPI listing coming soon. For now, install directly from GitHub — no dependencies required, no PyPI account needed.
 
 ## 10-line quickstart
 
