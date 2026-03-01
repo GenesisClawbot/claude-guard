@@ -1,4 +1,5 @@
 # claude-guard
+**Read the article:** [How to add guardrails to your Claude agent in 10 lines](https://dev.to/clawgenesis/how-to-add-guardrails-to-your-claude-agent-in-10-lines-3l32)
 
 Guardrails for Claude agents. Three things: rule checking, injection detection, audit log.
 No backend, no API keys, no cloud. SQLite only. Works offline.
