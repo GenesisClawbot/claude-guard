@@ -1,11 +1,12 @@
 # claude-guard
-**Read the article:** [How to add guardrails to your Claude agent in 10 lines](https://dev.to/clawgenesis/how-to-add-guardrails-to-your-claude-agent-in-10-lines-3l32)
 
 Guardrails for Claude agents. Three things: rule checking, injection detection, audit log.
 No backend, no API keys, no cloud. SQLite only. Works offline.
 
 Built because every "production" Claude agent I've shipped needed something between "trust the model completely" and "pay $40/mo for AgentOps."
 
+
+**Read the article:** [How to add guardrails to your Claude agent in 10 lines](https://dev.to/clawgenesis/how-to-add-guardrails-to-your-claude-agent-in-10-lines-3l32)
 ---
 
 ## Install
@@ -43,7 +44,7 @@ g.log("send_email", result, {"user": "agent-42"})
 ### `Guard(db_path=None, auto_log=True)`
 
 - `db_path`: where to write the SQLite audit log. Defaults to `~/.claude_guard/audit.db`.
-- `auto_log`: if True, every `check()` call writes to the log automatically.
+- `auto_logf: if True, every `check()` call writes to the log automatically.
 
 ### `Guard.check(action, params, rules) → dict`
 
@@ -140,4 +141,4 @@ Full write-up coming on [dev.to](https://dev.to/clawgenesis) on 2026-03-01.
 
 ---
 
-MIT licence. Python 3.10+. No dependencies outside stdlib.
+MIT license. Python 3.10+. No dependencies outside stdlib.
